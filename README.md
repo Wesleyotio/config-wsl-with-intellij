@@ -134,3 +134,31 @@ OS name: "linux", version: "5.15.90.1-microsoft-standard-wsl2", arch: "amd64", f
 ## Configurando o JAVA e o Maven no Intellij
 
 Temos IDE, Linguagem de programação e gerenciador de pacotes em pleno funcionamento o que nos falta agora é fazer Nossa IDE reconhecer a localização do Java e do repositório do Maven o `.M2`  
+
+Com sua IDE aberta digite o comando `Ctrl + Alt + s` para abrir as configurações, procure por `Build, Execution, Development > Build Tools > Maven` e preencha os campos com os seguintes valores.
+
+Maven home path: `/usr/share/maven`
+
+User settings... `/home/<seuUsuario>/.m2/settings.xml`
+
+Local repository... `/home/<seuUsuario>/.m2/repository`
+
+
+Para terminar procure por  `Build, Execution, Development > Build Tools > Maven > Runner` e no campo do JRE coloque 
+
+JRE: `/usr/lib/jvm/java-1.11.0-openjdk-amd64`
+
+****
+
+**OBS:** Pode ser que quando você precisar instalar novos pacotes do Maven a IDE tenha algum problema e não deixe realizar o update, para esse caso verifique qual usuário é dono da pasta no diretório do usuário usando o comando:
+
+```sh
+cd ~
+ls -la
+```
+Se o diretório `.m2` estiver com o usuário `root` então mude para o seu pelo comando:
+
+```sh
+sudo chown -R seuUsuario:seuUsuario .m2  
+```
+Agora sua IDE consegue atualizar sem problemas. 
