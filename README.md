@@ -51,7 +51,7 @@ Se tudo estiver saindo como o esperado teremos a seguinte tela.
 
 ![Image](tela-jetbrains-2.png)  
 
-No meu caso já tenho instalado o Intellij IDEA Community, mas posso atualiza-lo ou instalar qualquer outras ferramentas. Feito isso temos, que fazer nossa IDE ficar acessível para o windows usando os seguintes comandos.
+No meu caso já tenho instalado o Intellij IDEA Community, mas posso atualiza-lo ou instalar qualquer outras ferramentas. Feito isso, temos que fazer nossa IDE ficar acessível para o windows usando os seguintes comandos.
 
 navegamos até o diretório e executamos um `ls`
 ```sh
