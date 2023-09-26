@@ -2,7 +2,7 @@
 
 Neste breve tutorial faremos uma configuração para instalação da IDE [Intellij](https://www.jetbrains.com) no WSL2 usando o [Ubuntu-20.04](https://ubuntu.com/wsl), caso nunca tenha feito a instalação desta distro no seu WSL2 minha sugestão é começar [Configurando o WSL com o Ubuntu](https://github.com/Wesleyotio/config-wsl-with-ubuntu-zsh).
 
-Depois de ter realizado a configuração mencionada estaremos prontos para dar inicio a esta, importante também enfatizar que esse tutorial foi inspirado pelo video [instalando o Intellij dentro do wsl2](https://www.youtube.com/watch?v=v-e8MRhNkmU) do canal [CodaRAM](https://www.youtube.com/@codaram).
+Depois de ter realizado a configuração mencionada estaremos prontos para dar inicio, importante também enfatizar que esse tutorial foi inspirado pelo video [instalando o Intellij dentro do wsl2](https://www.youtube.com/watch?v=v-e8MRhNkmU) do canal [CodaRAM](https://www.youtube.com/@codaram).
 
 # Índice
 
